@@ -18,7 +18,6 @@
 		4402C12A17E7682B00F0E1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C10F17E7682A00F0E1B0 /* Foundation.framework */; };
 		4402C12B17E7682B00F0E1B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C11317E7682A00F0E1B0 /* UIKit.framework */; };
 		4402C13317E7682B00F0E1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4402C13117E7682B00F0E1B0 /* InfoPlist.strings */; };
-		4402C13517E7682B00F0E1B0 /* D2UIExample_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C13417E7682B00F0E1B0 /* D2UIExample_iOSTests.m */; };
 		4402C15D17E76ADE00F0E1B0 /* BarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C15C17E76ADE00F0E1B0 /* BarsViewController.m */; };
 		4402C16117E76AF600F0E1B0 /* DynamicBarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C16017E76AF600F0E1B0 /* DynamicBarsViewController.m */; };
 		4402C16517E76B0E00F0E1B0 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C16417E76B0E00F0E1B0 /* XYViewController.m */; };
@@ -28,6 +27,7 @@
 		4402C17717E772EB00F0E1B0 /* D2UIVisualisationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C17517E772EB00F0E1B0 /* D2UIVisualisationContext.m */; };
 		44AD3CDB17E7BE3400CBD7A9 /* D2UIExample-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AD3CDA17E7BE3400CBD7A9 /* D2UIExample-iPad.storyboard */; };
 		44AD3CDD17E7BE7C00CBD7A9 /* D2UIExample-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AD3CDC17E7BE7C00CBD7A9 /* D2UIExample-iPhone.storyboard */; };
+		44AD3CDF17E8C21700CBD7A9 /* NSArrayDataUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD3CDE17E8C21700CBD7A9 /* NSArrayDataUtilityTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		4402C12817E7682B00F0E1B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4402C13017E7682B00F0E1B0 /* D2UIExample_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "D2UIExample_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		4402C13217E7682B00F0E1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4402C13417E7682B00F0E1B0 /* D2UIExample_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D2UIExample_iOSTests.m; sourceTree = "<group>"; };
 		4402C15B17E76ADE00F0E1B0 /* BarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarsViewController.h; path = screens/BarGraph/BarsViewController.h; sourceTree = "<group>"; };
 		4402C15C17E76ADE00F0E1B0 /* BarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarsViewController.m; path = screens/BarGraph/BarsViewController.m; sourceTree = "<group>"; };
 		4402C15F17E76AF600F0E1B0 /* DynamicBarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicBarsViewController.h; path = screens/DynamicBarGraphs/DynamicBarsViewController.h; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		4402C17517E772EB00F0E1B0 /* D2UIVisualisationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2UIVisualisationContext.m; sourceTree = "<group>"; };
 		44AD3CDA17E7BE3400CBD7A9 /* D2UIExample-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "D2UIExample-iPad.storyboard"; sourceTree = "<group>"; };
 		44AD3CDC17E7BE7C00CBD7A9 /* D2UIExample-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "D2UIExample-iPhone.storyboard"; sourceTree = "<group>"; };
+		44AD3CDE17E8C21700CBD7A9 /* NSArrayDataUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayDataUtilityTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 		4402C12E17E7682B00F0E1B0 /* D2UIExample_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				4402C13417E7682B00F0E1B0 /* D2UIExample_iOSTests.m */,
+				44AD3CDE17E8C21700CBD7A9 /* NSArrayDataUtilityTests.m */,
 				4402C12F17E7682B00F0E1B0 /* Supporting Files */,
 			);
 			path = D2UIExample_iOSTests;
@@ -348,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4402C13517E7682B00F0E1B0 /* D2UIExample_iOSTests.m in Sources */,
+				44AD3CDF17E8C21700CBD7A9 /* NSArrayDataUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
