@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jYu-B6-p7k">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller - D2UI examples-->
+        <scene sceneID="r8y-u9-4fP">
+            <objects>
+                <tableViewController id="6MH-58-Ond" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Gbv-8J-rhb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ust-FQ-CzC">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="jLH-i7-vnD" style="IBUITableViewCellStyleDefault" id="s3b-Tl-Ln9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s3b-Tl-Ln9" id="OWa-4A-j1s">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Bar Chart" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jLH-i7-vnD">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="P8o-aV-ykl" kind="push" id="NeF-1i-s95"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="yqH-UV-Ul6" style="IBUITableViewCellStyleDefault" id="nRA-VI-NQF">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nRA-VI-NQF" id="RoQ-u6-8b7">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Dynamic X/Y circles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yqH-UV-Ul6">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="XdA-Rs-bmg" kind="push" id="Pri-0z-fDx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="v89-DF-tc0" style="IBUITableViewCellStyleDefault" id="2j8-Hf-eAo">
+                                        <rect key="frame" x="0.0" y="88" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2j8-Hf-eAo" id="99B-NL-LXN">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Dynamic bars" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v89-DF-tc0">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="Ed3-4S-zLJ" kind="push" id="ph2-H8-g2I"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="PDf-cA-51X" style="IBUITableViewCellStyleDefault" id="Dco-Yt-xDK">
+                                        <rect key="frame" x="0.0" y="132" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dco-Yt-xDK" id="9ao-0Z-T0S">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Pie Chart" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PDf-cA-51X">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="9ha-FK-cct" kind="push" id="lY1-1g-z68"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="D2UI examples" id="BsB-8m-1NU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tbg-CB-jy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="448" y="-193"/>
+        </scene>
+        <!--Bars View Controller - Bar Chart-->
+        <scene sceneID="LVr-sK-9P7">
+            <objects>
+                <viewController title="Bar Chart" id="P8o-aV-ykl" customClass="BarsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f18-yV-t1D"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bzo-vF-x4K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mGe-NU-OCj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-YD-fgk">
+                                <rect key="frame" x="20" y="85" width="285" height="463"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bzo-vF-x4K" firstAttribute="top" secondItem="KI2-YD-fgk" secondAttribute="bottom" constant="20" id="OAk-DP-n3p"/>
+                            <constraint firstItem="KI2-YD-fgk" firstAttribute="top" secondItem="f18-yV-t1D" secondAttribute="bottom" constant="21" id="S7j-b1-aw5"/>
+                            <constraint firstAttribute="trailing" secondItem="KI2-YD-fgk" secondAttribute="trailing" constant="15" id="Ye7-TV-ntI"/>
+                            <constraint firstItem="KI2-YD-fgk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mGe-NU-OCj" secondAttribute="leading" constant="20" id="cXw-oP-wmu"/>
+                            <constraint firstItem="KI2-YD-fgk" firstAttribute="leading" secondItem="mGe-NU-OCj" secondAttribute="leading" constant="20" id="j0n-N8-ywP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bar Chart" id="B6R-GD-Mha"/>
+                    <connections>
+                        <outlet property="_viz" destination="ncm-Py-Sjh" id="gGX-5y-qW0"/>
+                        <outlet property="_vizView" destination="KI2-YD-fgk" id="zSA-HA-Ejy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQB-lQ-A1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ncm-Py-Sjh" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="P8o-aV-ykl" id="J7d-Jy-oJb"/>
+                        <outlet property="view" destination="KI2-YD-fgk" id="KKW-gq-s2d"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="901" y="-551"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mWa-D7-2Vj">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="jYu-B6-p7k" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gCi-3i-5D2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6MH-58-Ond" kind="relationship" relationship="rootViewController" id="tKR-84-5kP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Db-1V-yKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34" y="-85"/>
+        </scene>
+        <!--View Controller - X/Y Circles-->
+        <scene sceneID="MQ3-bL-MfR">
+            <objects>
+                <viewController title="X/Y Circles" id="XdA-Rs-bmg" customClass="XYViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uJZ-iZ-4g6"/>
+                        <viewControllerLayoutGuide type="bottom" id="fL0-3W-pnn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ubL-Oa-FWD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6h-Oc-5pw">
+                                <rect key="frame" x="20" y="85" width="285" height="463"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fL0-3W-pnn" firstAttribute="top" secondItem="V6h-Oc-5pw" secondAttribute="bottom" constant="20" id="ZbK-Dc-WyP"/>
+                            <constraint firstItem="V6h-Oc-5pw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ubL-Oa-FWD" secondAttribute="leading" constant="20" id="hyy-2q-NzQ"/>
+                            <constraint firstItem="V6h-Oc-5pw" firstAttribute="leading" secondItem="ubL-Oa-FWD" secondAttribute="leading" constant="20" id="igc-qJ-ClC"/>
+                            <constraint firstAttribute="trailing" secondItem="V6h-Oc-5pw" secondAttribute="trailing" constant="15" id="mD6-wM-kxO"/>
+                            <constraint firstItem="V6h-Oc-5pw" firstAttribute="top" secondItem="uJZ-iZ-4g6" secondAttribute="bottom" constant="21" id="zCI-6W-ATX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="X/Y Circles" id="zZY-Yd-so6"/>
+                    <connections>
+                        <outlet property="_viz" destination="rxl-76-UTO" id="ECK-dU-S5d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04o-8f-Hcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="rxl-76-UTO" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="XdA-Rs-bmg" id="vDa-ws-dUV"/>
+                        <outlet property="view" destination="V6h-Oc-5pw" id="Epc-kq-pI1"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1297" y="-434"/>
+        </scene>
+        <!--Pie Chart View Controller - Pie Chart-->
+        <scene sceneID="UhK-48-6UU">
+            <objects>
+                <viewController id="9ha-FK-cct" customClass="PieChartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F3D-3H-PSU"/>
+                        <viewControllerLayoutGuide type="bottom" id="BKN-BC-FVN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i6G-LQ-EA4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tm-Yp-nq3">
+                                <rect key="frame" x="20" y="85" width="285" height="463"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9tm-Yp-nq3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i6G-LQ-EA4" secondAttribute="leading" constant="20" id="65i-es-l3w"/>
+                            <constraint firstItem="BKN-BC-FVN" firstAttribute="top" secondItem="9tm-Yp-nq3" secondAttribute="bottom" constant="20" id="BKc-QN-mvl"/>
+                            <constraint firstItem="9tm-Yp-nq3" firstAttribute="top" secondItem="F3D-3H-PSU" secondAttribute="bottom" constant="21" id="NMs-m1-Tn4"/>
+                            <constraint firstAttribute="trailing" secondItem="9tm-Yp-nq3" secondAttribute="trailing" constant="15" id="cMr-VB-syC"/>
+                            <constraint firstItem="9tm-Yp-nq3" firstAttribute="leading" secondItem="i6G-LQ-EA4" secondAttribute="leading" constant="20" id="vbS-Ug-V3g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pie Chart" id="Eta-bl-Fxx"/>
+                    <connections>
+                        <outlet property="_viz" destination="ad0-xW-b4B" id="N9q-5M-Bqb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y7y-q4-mec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ad0-xW-b4B" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="9ha-FK-cct" id="iBN-wa-wcx"/>
+                        <outlet property="view" destination="9tm-Yp-nq3" id="j23-4N-bKI"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1417" y="577"/>
+        </scene>
+        <!--Dynamic Bars View Controller - Dynamic Bar Charts-->
+        <scene sceneID="904-J0-JsY">
+            <objects>
+                <viewController title="Dynamic Bar Charts" id="Ed3-4S-zLJ" customClass="DynamicBarsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qjm-Na-XuJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="NJt-CZ-heG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Iu-XN-NLf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cP-a0-tzN">
+                                <rect key="frame" x="20" y="85" width="285" height="140"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dql-4E-J6D">
+                                <rect key="frame" x="20" y="249" width="285" height="140"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9cq-Lf-VI0">
+                                <rect key="frame" x="20" y="408" width="285" height="140"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="leading" secondItem="1cP-a0-tzN" secondAttribute="leading" id="4lR-kZ-Pel"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="height" secondItem="9cq-Lf-VI0" secondAttribute="height" id="5vp-A7-CaF"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="width" secondItem="1cP-a0-tzN" secondAttribute="width" id="7VF-1j-A1S"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="width" secondItem="9cq-Lf-VI0" secondAttribute="width" id="F2f-Jr-1Xt"/>
+                            <constraint firstItem="9cq-Lf-VI0" firstAttribute="top" secondItem="dql-4E-J6D" secondAttribute="bottom" constant="19" id="R2K-qX-Nkq"/>
+                            <constraint firstItem="1cP-a0-tzN" firstAttribute="top" secondItem="qjm-Na-XuJ" secondAttribute="bottom" constant="21" id="Rgm-8E-4v1"/>
+                            <constraint firstItem="1cP-a0-tzN" firstAttribute="leading" secondItem="8Iu-XN-NLf" secondAttribute="leading" constant="20" id="e5L-lJ-goe"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="height" secondItem="1cP-a0-tzN" secondAttribute="height" id="gYQ-In-6aZ"/>
+                            <constraint firstItem="1cP-a0-tzN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8Iu-XN-NLf" secondAttribute="leading" constant="20" id="iYY-bW-bFM"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="top" secondItem="1cP-a0-tzN" secondAttribute="bottom" constant="24" id="icp-CF-SKR"/>
+                            <constraint firstAttribute="trailing" secondItem="1cP-a0-tzN" secondAttribute="trailing" constant="15" id="oP5-NC-AN5"/>
+                            <constraint firstAttribute="bottom" secondItem="9cq-Lf-VI0" secondAttribute="bottom" constant="20" id="xJs-rA-Hrq"/>
+                            <constraint firstItem="dql-4E-J6D" firstAttribute="leading" secondItem="9cq-Lf-VI0" secondAttribute="leading" id="xeb-Hq-lyR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dynamic Bar Charts" id="ELs-mU-Iem"/>
+                    <connections>
+                        <outlet property="_viz1" destination="9Z9-hb-U0j" id="PKZ-J4-Nu5"/>
+                        <outlet property="_viz2" destination="KvH-Ue-0yL" id="7p2-mS-Byc"/>
+                        <outlet property="_viz3" destination="Dra-gg-nxD" id="Efs-cb-vbj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztf-vl-I4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="9Z9-hb-U0j" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="Ed3-4S-zLJ" id="QIv-SD-r6u"/>
+                        <outlet property="view" destination="1cP-a0-tzN" id="acD-kT-0Ay"/>
+                    </connections>
+                </customObject>
+                <customObject id="KvH-Ue-0yL" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="Ed3-4S-zLJ" id="k9b-NR-zAB"/>
+                        <outlet property="view" destination="dql-4E-J6D" id="3bx-jS-MJM"/>
+                    </connections>
+                </customObject>
+                <customObject id="Dra-gg-nxD" customClass="D2UIVisualisationContext">
+                    <connections>
+                        <outlet property="delegate" destination="Ed3-4S-zLJ" id="dsa-ai-pz6"/>
+                        <outlet property="view" destination="9cq-Lf-VI0" id="sD5-Eu-CZk"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="981" y="166"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

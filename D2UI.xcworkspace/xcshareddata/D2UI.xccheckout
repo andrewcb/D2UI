@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71C90C7F-B7A5-4B7E-8C94-9C28203335DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>D2UI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B253810-1477-49F2-9D22-2C5E5BF9E4EF</key>
+		<string>https://github.com/andrewcb/D2UI.git</string>
+		<key>C1CC7F57-33A1-4373-B675-8847EDE7B243</key>
+		<string>svn+ssh27612://svn.null.org/home/acb/svn</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>D2UI.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B253810-1477-49F2-9D22-2C5E5BF9E4EF</key>
+		<string>..</string>
+		<key>C1CC7F57-33A1-4373-B675-8847EDE7B243</key>
+		<string>../../../svn</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C1CC7F57-33A1-4373-B675-8847EDE7B243</key>
+		<string>svn+ssh27612://svn.null.org/home/acb/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrewcb/D2UI.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B253810-1477-49F2-9D22-2C5E5BF9E4EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B253810-1477-49F2-9D22-2C5E5BF9E4EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>D2UI</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1CC7F57-33A1-4373-B675-8847EDE7B243</string>
+			<key>IDESourceControlWCCName</key>
+			<string>svn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
